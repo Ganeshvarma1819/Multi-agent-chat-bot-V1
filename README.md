@@ -74,16 +74,27 @@ This project is the culmination of several iterations, resulting in a robust, no
 
 .
 ├── /data/                  \# Folder to store your source PDF documents
+
 ├── /frontend/              \# Contains the React frontend application
+
 │   ├── /src/
+
 │   │   ├── App.css         \# Styles for the application
+
 │   │   ├── App.js          \# Main React component
+
 │   │   └── Api.js          \# Handles API calls to the backend
+
 │   └── package.json
+
 ├── .env                    \# Environment variables (you must create this)
+
 ├── api.py                  \# The main FastAPI backend server
+
 ├── main.py                 \# Script for data ingestion (processing PDFs)
+
 ├── requirements.txt        \# Python dependencies for the backend
+
 └── README.md               \# This file
 
 ````
